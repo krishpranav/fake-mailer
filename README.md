@@ -13,3 +13,10 @@ a simple python script to send anonymous mail to a person
 - cd fake-mailer 
 - python fake-mail.py
 
+# Steps To Run This Tool On Android(Termux):
+- apt update
+- apt install python
+- apt install python-pip
+- git clone https://github.com/krishpranav/fake-mailer
+- cd fake-mailer
+- python fake-mail.py
