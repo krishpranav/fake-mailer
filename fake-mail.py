@@ -66,3 +66,15 @@ rth = sess.post('http://anonymouse.org/cgi-bin/anon-email.cgi', headers={
 	'subject': subject,
 	'text': msg
 })
+
+if '200' in rth.text:
+    hprint(G + "Sending Email >>>>>>")
+else:
+    hprint(G + " Sending Email >>>>>")
+    print ('')
+    time.sleep(2)
+    hprint(W + " This Process can take some time!!")
+    time.sleep(2)
+    print('')
+    print(Y + "visit github.com/krishpranav")
+    print('')
